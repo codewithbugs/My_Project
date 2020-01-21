@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    background-color: #d8d5d5;
+    text-align: center;
+}
+
+.logo-section img {
+    /* height: 250px; */
+    width: 300px;
+    /* border: 2px solid black; */
+}
+
+
+
+ .login {
+  
+    text-align: center;
+    align-self: center;  
+    margin: auto 35vw;
+    margin-top: 50px;
+    height:300px;
+    /* width: 30%; */
+    /* box-shadow: 1px 1px 6px 1px #000; */
+    
+  }
+ form {
+    margin: 20px 50px;
+    /* margin-bottom: 20px; */
+    
+  }
+  
+ form button {
+    margin-top: 20px;
+  }
+  
+  
+  .login h3 { 
+    color: #2b2a2a;
+    text-shadow: 0 0 10px rgba(0,0,0,0.3);
+    letter-spacing:1px;
+    text-align:center;
+    padding-bottom: 20px;
+    margin: 25px 0;
+  }
+  
+   input { 
+      width: 100%; 
+      margin-bottom: 20px; 
+      
+      border: none;
+      outline: none;
+      padding: 10px;
+      font-size: 13px;
+      color: #000;
+      
+      border: 1px solid rgba(0,0,0,0.3);
+      border-radius: 4px;
+      
+    transition: box-shadow .5s ease;
+   } 
+  input:focus { 
+    box-shadow: inset 0 -5px 45px rgba(100,100,100,0.4), 0 1px 1px rgba(255,255,255,0.2);
+   }
+  
+ .btn1 {    
+    display: inline-block;   
+    
+    padding: 4px 10px 4px; 
+    margin-bottom: 0; 
+    font-size: 13px; 
+    line-height: 18px;
+    color: #333333; 
+    text-align: center;  
+    background-color: #f5f5f5; 
+    
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    border: 1px solid #e6e6e6;
+    cursor: pointer; 
+    
+  } 
+  
+   .btn1:hover, .btn1:active, .btn1[disabled] { 
+    background-color: #e6e6e6;
+    border: none;
+   }
+   .btn-large {
+    padding: 9px 14px; 
+    font-size: 15px;
+    line-height: normal;
+    border-radius: 5px; 
+  }
+  .btn1:hover {
+    color: #333333;
+    text-decoration: none; 
+    background-color: #e6e6e6;
+    background-position: 0 -15px; 
+    -webkit-transition: background-position 0.1s linear; 
+    -moz-transition: background-position 0.1s linear; 
+    -ms-transition: background-position 0.1s linear; 
+    -o-transition: background-position 0.1s linear; 
+    transition: background-position 0.1s linear; 
+  }
+  .btn-primary, .btn-primary:hover { 
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25); 
+    color: #ffffff; 
+  }
+ .btn-primary.active {
+     color: rgba(255, 255, 255, 0.75); 
+    }
+.btn-primary {
+    color: #000;
+    background-color: #fff;   
+    border: 1px solid #1b1b1b;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.5); 
+    }
+.btn-primary:hover, .btn-primary:active, .btn-primary.active, .btn-primary.disabled, .btn-primary[disabled] {
+    filter: none; 
+    background-color: #343a40 ; /* 343a40*/
+    color: #fff;
+      
+  }
+
+  footer .footer-section {
+      /* background-color: #000; */
+      margin-top: 100vh;
+  }
