@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="widtd=device-widtd, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpatd.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha484-ggOyR0iXCbMQv4Xipma44MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    
+
+
+    <script src="https://code.jquery.com/jquery-4.4.1.slim.min.js" integrity="sha484-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha484-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa4JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpatd.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha484-JjSmVgyd0p4pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="../static/css/dashboardStyle.css">
+
+
+    <title>Dashboard</title>
+</head>
+<body>
+        <!-- NAVBAR -->
+        <nav>
+            <div class="nav">  
+                <div class="part-1">          
+                    <ul>
+                        <li><a href="{{ url_for('home') }}">Home</a></li>
+                        <li><a href="{{ url_for('dashboard') }}">Dashboard</a></li>
+                        <li><a href="{{ url_for('files') }}">Files</a></li>
+                    </ul>  
+                </div> 
+                <div class="part-2">    
+                    <ul>
+                        <li><a href="#">Help Desk</a></li>
+                        <li><a href="#">Login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- CONTENT  -->
+    <div class="content">
+        <div class="todo">
+            <h4>To Do's</h4>
+            <div class="todo-detail">
+                <table>
+                    <tr>
+                        <td>Presentation</td>
+                        <td><input type="checkbox"></td>
+                        <td><i class="fa fa-trash-o" style="font-size:26px"></i></td>
+                    </tr>
+                    <tr>
+                        <td>Lorem ipsum dolor sit amet consectetur.</td>
+                        <td><input type="checkbox"></td>
+                        <td><i class="fa fa-trash-o" style="font-size:26px"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Lorem ipsum sit.</td>
+                        <td><input type="checkbox"></td>
+                        <td><i class="fa fa-trash-o" style="font-size:26px"></i></td>
+                    </tr>
+                    <tr>
+                        <td>Lorem ipsum dolor sit.</td>
+                        <td><input type="checkbox"></td>
+                        <td><i class="fa fa-trash-o" style="font-size:26px"></i></td>
+                    </tr>
+                    <tr>
+                        <td>ipsum dolor sit.</td>
+                        <td><input type="checkbox"></td>
+                        <td><i class="fa fa-trash-o" style="font-size:26px"></i></td>
+                    </tr>
+                    
+                </table>
+            </div>
+
+        </div>
+        <div class="meeting">
+            <h4>Meetings</h4>
+            <table>
+                <tr><th>Sr No.</th>
+                <th>Meeting Title</th>
+                <th>Meeting Organiser</th>
+                <th>Date</th>
+                <th>Time</th></tr>
+
+                <tr><td>1</td>
+                <td>SIH Project</td>
+                <td>Mr. Geeks</td>
+                <td>12-02-2020</td>
+                <td>--</td></tr>
+
+                <tr><td>2</td>
+                <td>AI Project</td>
+                <td>Mr. Telusko</td>
+                <td>18-02-2020</td>
+                <td>12:00</td></tr>
+
+                <tr><td>3</td>
+                <td>IoT Project</td>
+                <td>Mr, Perfect</td>
+                <td>22-02-2020</td>
+                <td>15:30</td></tr>
+
+                <tr><td>4</td>
+                <td>TCS Presentation</td>
+                <td>Mr. Traversy</td>
+                <td>12-03-2020</td>
+                <td>13:00</td></tr>
+            </table>
+
+        </div>
+    </div>
+
+        <!-- FOOTER  -->
+
+    <footer>
+        <div class="footer-section">
+            Copyright &copy; 2020
+        </div>
+    </footer>
+
+    
+</body>
+</html>

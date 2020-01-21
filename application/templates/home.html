@@ -17,22 +17,23 @@
 </head>
 <body>
         <!-- NAVBAR -->
-    <nav>
-        <div class="nav">  
-            <div class="part-1">          
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Dashboard</a></li>
-                    <li><a href="#">Files</a></li>
-                </ul>  
-            </div> 
-            <div class="part-2">    
-                <ul>
-                    <li><a href="#">Help Desk</a></li>
-                </ul>
+        <nav>
+            <div class="nav">  
+                <div class="part-1">          
+                    <ul>
+                        <li><a href="{{ url_for('home') }}">Home</a></li>
+                        <li><a href="{{ url_for('dashboard') }}">Dashboard</a></li>
+                        <li><a href="{{ url_for('files') }}">Files</a></li>
+                    </ul>  
+                </div> 
+                <div class="part-2">    
+                    <ul>
+                        <li><a href="#">Help Desk</a></li>
+                        <li><a href="#">Login</a></li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
 
         <!-- CAROUSEL -->
         <div class="slide">                        

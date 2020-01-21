@@ -9,6 +9,14 @@ from flask_login import login_user,current_user
 def home():
     return render_template("home.html")
 
+@app.route("/dashboard")
+def dashboard():
+    return render_template("dashboard.html")
+
+@app.route("/files")
+def files():
+    return render_template("files.html")
+
 @app.route("/login", methods=['GET','POST'])
 def login():
 	if current_user.is_authenticated:
