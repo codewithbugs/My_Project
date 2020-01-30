@@ -12,6 +12,7 @@
   grid-template-columns: 1fr 1fr;
   margin: 0 40px;
   margin-top: 10px;
+  /*background-color: #fff;*/
 }
 
 .nav .part-1 li,
@@ -72,7 +73,15 @@ footer .footer-section {
   table-layout: fixed;
   border-collapse: collapse;
 }
+.file-table {
+  margin: auto 5vw;
 
+}
+
+.file-table table {
+  /*width: 100%;*/
+  text-align: center;
+}
 .fixed_header tbody {
   display: block;
   width: 100%;
@@ -88,12 +97,18 @@ footer .footer-section {
   background: #3377ff;
   color: #fff;
 }
+.fixed_header table tbody td {
+  /*border: 2px solid red;*/
+
+}
 
 .fixed_header th,
 .fixed_header td {
   padding: 5px;
   text-align: left;
   width: 200px;
+  /*border: 2px solid red;*/
+  text-align: center;
 }
 .status-pending {
   background: #8d8683;
