@@ -63,15 +63,15 @@
 .todo {
     border: 2px solid black;
     border-radius: 20px;
-    /* background-color: #d8d5d5; */
+     /*background-color: #d8d5d5; */
 }
 .todo h4 {
     font-size: 22px;
     border-bottom: 1px solid black;
     padding: 20px;
     margin: 0;
-    background-color: #424242;
-    color: #fff;
+    background-color: #d8d5d5;
+    color: #000;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
@@ -79,6 +79,7 @@
 .meeting {
     border: 2px solid black;
     border-radius: 20px;
+    /*background-color: #d8d5d5; */
     
 }
 .meeting h4 {
@@ -86,8 +87,8 @@
     border-bottom: 1px solid black;
     padding: 20px;
     margin: 0;
-    background-color: #424242;
-    color: #fff;
+    background-color: #d8d5d5;
+    color: #000;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
