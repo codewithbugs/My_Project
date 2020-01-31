@@ -6,6 +6,9 @@
   font-family: 'Raleway', sans-serif;
 } 
  
+body {
+  background-color: #d8d5d5;
+}
  /* NAVBAR */
 
 .nav {

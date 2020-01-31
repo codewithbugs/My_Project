@@ -3,6 +3,10 @@
 * {
   font-family: 'Raleway', sans-serif;
 }   
+
+body {
+    background-color: #d8d5d5;
+}
        
        /* NAVBAR */
        .nav {
@@ -63,14 +67,14 @@
 .todo {
     border: 2px solid black;
     border-radius: 20px;
-     /*background-color: #d8d5d5; */
+     background-color: #f5f5f5;
 }
 .todo h4 {
     font-size: 22px;
     border-bottom: 1px solid black;
-    padding: 20px;
+    padding: 10px;
     margin: 0;
-    background-color: #d8d5d5;
+    background-color:  #3377ff;
     color: #000;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -79,15 +83,15 @@
 .meeting {
     border: 2px solid black;
     border-radius: 20px;
-    /*background-color: #d8d5d5; */
+    background-color: #f5f5f5;
     
 }
 .meeting h4 {
     font-size: 22px;
     border-bottom: 1px solid black;
-    padding: 20px;
+    padding: 10px;
     margin: 0;
-    background-color: #d8d5d5;
+    background-color:  #3377ff;
     color: #000;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -135,7 +139,6 @@
     /* border-bottom: 1px dotted #000; */
 }
 
-.
 
 .fa {
     cursor: pointer;
